@@ -1,0 +1,34 @@
+﻿namespace _01._Square_Root
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            try
+            {
+                int num = int.Parse(Console.ReadLine());
+                if (num < 0)
+                {
+                    throw new ArgumentException();
+                }
+
+                double sqrt = Math.Sqrt(num);
+                
+                Console.WriteLine(sqrt);
+            }
+            catch (ArgumentException)
+            {
+                Console.WriteLine("Invalid number.");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid format.");
+            }
+            finally
+            {
+                Console.WriteLine("Goodbye.");
+            }
+        }
+    }
+}
