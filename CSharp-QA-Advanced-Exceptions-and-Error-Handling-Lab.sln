@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Square Root-1", "01. Sq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumOf_Integers", "03.SumOf_Integers\03.SumOf_Integers.csproj", "{1E0D310F-49C5-4AB6-A79E-9F50DF3D9034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Play Catch", "05. Play Catch\05. Play Catch.csproj", "{46256C64-01AB-4F49-9AED-D435685F6007}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1E0D310F-49C5-4AB6-A79E-9F50DF3D9034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E0D310F-49C5-4AB6-A79E-9F50DF3D9034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E0D310F-49C5-4AB6-A79E-9F50DF3D9034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46256C64-01AB-4F49-9AED-D435685F6007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46256C64-01AB-4F49-9AED-D435685F6007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46256C64-01AB-4F49-9AED-D435685F6007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46256C64-01AB-4F49-9AED-D435685F6007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
