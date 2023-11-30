@@ -21,7 +21,7 @@
             }
             finally
             {
-                Console.WriteLine("Goodbye");
+                Console.WriteLine("Goodbye.");
             }
         }
     }
